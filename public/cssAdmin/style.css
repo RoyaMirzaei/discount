@@ -1,0 +1,8 @@
+input[type='text']{
+    border: 2px inset gray;
+}
+textarea{
+    border: 2px inset gray !important;
+    resize: none;
+    height: 100px !important;
+}

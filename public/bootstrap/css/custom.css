@@ -1,0 +1,83 @@
+.menu{
+    width: 100%;
+    height: 50px;
+}
+.slider{
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.5);
+}
+.about{
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.about .borderAbout{
+    width: 500px;
+    border: 2px inset black;
+    margin:20px auto;
+}
+.about h6{
+    line-height: 40px;
+    font-family: "Comic Sans MS";
+    text-align:center;
+}
+.gallery{
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.5);
+}
+.gallery .borderGallery{
+    width: 500px;
+    border: 2px solid black;
+    margin:  20px auto;
+}
+.contact{
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.contact .borderContact{
+    width: 500px;
+    border: 2px solid black;
+    margin: 20px auto;
+}
+label{
+    font-family: "Comic Sans MS";
+    text-transform: capitalize;
+    color:dimgray;
+}
+input[type=text]{
+    border: 2px inset lightgray;
+
+}
+input[type=text]::placeholder{
+    font-family: "Comic Sans MS";
+}
+textarea{
+    border: 2px inset lightgray !important;
+    resize: none;
+    height: 150px !important;
+}
+input[type=email]{
+    border: 2px inset lightgray;
+}
+input[type=email]::placeholder{
+    font-family: "Comic Sans MS";
+}
+
+textarea::placeholder{
+
+    font-family: "Comic Sans MS";
+}
+.footer{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: lightslategray;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Comic Sans MS";
+}
